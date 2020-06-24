@@ -286,3 +286,10 @@
   },
   "types": "lib/index.d.ts"
 }
+
+"scripts": {
+  "dev": "nuxt",
+  "build": "nuxt build",
+  "start": "nuxt start",
+  "heroku-postbuild": "npm run build"
+}
